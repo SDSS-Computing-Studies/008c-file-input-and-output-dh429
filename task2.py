@@ -21,7 +21,6 @@ fname = 'task02.csv'
 file = open(fname, 'r')
 data = file.read()
 
-dlist = data.split(",")
 
 
 
@@ -49,16 +48,4 @@ dlist = data.split(",")
 
 
 
-""""
-look = 0
-find = 0
 
-search = input("Enter stock symbol: ")
-
-for i in dlist:
-    if search in dlist[i]:
-        find = find + 1
-
-    else:
-        continue
-"""
