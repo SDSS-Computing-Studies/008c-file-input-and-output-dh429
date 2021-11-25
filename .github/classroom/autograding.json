@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Assertion",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Task2.py",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "AAPL",
+      "output": "Apple Inc.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
