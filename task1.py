@@ -9,8 +9,22 @@ Example:
 assert find('apple') == 0
 assert find('fish') == 5
 '''
+
+fname = 'task01.txt'
+
+
 def find(needle):
-    pass
+    file = open(fname, 'r')
+    data = file.read()
+    flist = data.split('\n')
+    flook = 0
+    check = True
+    while check:
+        if needle in flist[flook]:
+            check = False
+            return flook
+        else:
+            flook = flook + 1
 
 
 if __name__ == "__main__":
