@@ -22,6 +22,34 @@ file = open(fname, 'r')
 data = file.read()
 
 dlist = data.split(",")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+""""
 look = 0
 find = 0
 
@@ -33,3 +61,4 @@ for i in dlist:
 
     else:
         continue
+"""
